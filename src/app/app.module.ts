@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BoldPipe } from './bold.pipe';
+import { LimitwordPipe } from './limitword.pipe';
+import { ReversePipe } from './reverse.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoldPipe,
+    LimitwordPipe,
+    ReversePipe
   ],
   imports: [
     BrowserModule,
